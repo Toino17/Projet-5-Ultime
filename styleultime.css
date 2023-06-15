@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Ultimelogo{
+    margin: 8px;
+}
+
+.barrehaute{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.reseau{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 15%;
+
+
+}
+
+.social{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #421e08;
+    margin: 0px 1px;
+}
+
+.social img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+
+
+nav{
+    background-color: chocolate;
+}
+
+.divnav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulnav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 64%;
+    font-size: 21px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.snowboard{
+    background-image: url(header.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+.marginNegatif{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.Barefoot{
+    border-top: 4px solid chocolate;
+    border-right: 0px;
+    border-left: 0px;
+    margin: 1%;
+    
+}
+
+.h2sport{
+    color: chocolate;
+
+}
+
+.psport{
+    color: #000;
+}
+
+.cardtitle{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.pbarrefoot {
+    width: 55%;
+    height: 50%;
+}
+
+.psky{
+    width: 80%;
+    height: 50%;
+}
+
+.cardcore {
+    max-height: 100%;
+    
+}
+
+.savoir {
+    background-color: chocolate;
+    padding: 8px;
+    font-weight: bold;
+
+}
+
+.sporttext {
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+.hsport{
+    font-size: 38px;
+    font-weight: bold;
+    color: chocolate;
+    margin-bottom: 15px;
+}
+
+.psport{
+    font-size: 16px;
+}
+
+.psporttrois{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+
+.acceder{
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #421e08;
+    padding: 3px 15px;
+}
+
+.running{
+    background-image: url(equipement.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    margin: 0
+    
+
+    
+}
+
+.txtenvie{
+    font-size: 40px;
+    color: #fff;
+}
+
+.txtrunning, .txtoffert{
+    font-size: 100px;
+    font-weight: bold;
+    color: chocolate;
+    line-height: 80px;
+    margin-bottom: 30px;
+   
+}
+
+span{
+    font-weight:200
+}
+
+.jenprofite{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #421e08;
+    padding: 3px 15px;
+}
+
+.tachometer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+
+.texttaco{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+}
+
+.txttacho{
+    font-size: 38px;
+    font-weight: bold;
+    color: chocolate;
+    margin-bottom: 0px;
+}
+
+.txttachobis{
+    font-size: 16px;
+    color: #696969;
+    margin-bottom: 35px;
+}
+
+.becoming{
+    text-align: left;
+}
+
+.oursoccer{
+    text-align: left;
+}
+
+.moto{
+    background-image: url(savoir.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardmoto{
+    background-color: #C0C0C0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+
+}
+
+.cardmoto img{
+    height: 25%;
+    width: 25%;
+}
+
+.please{
+    display: flex;
+    justify-content: center;
+}
+
+.cardmototxt{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.exploit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.txtexploit, .txtexploitbis, .titleexploit{
+    text-align: center;
+}
+
+.titleexploit{
+    font-size: 38px;
+    font-weight: bold;
+    color: chocolate;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
+
+.txtexploit, .txtexploitbis{
+    font-size: 16px;
+    color: #696969;
+}
+
+.txtexploit{
+    margin-bottom: 4px;
+}
+
+.txtexploitbis{
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ulfoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+    
+}
+
+.lifoot{
+    list-style: none;
+    color: #fff;
+}
+
+.lifoot span{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.divfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Copyright{
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-left: 24px;
+    color: #fff;
+    font-size: 12px;
+}
