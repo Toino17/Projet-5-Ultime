@@ -343,6 +343,7 @@ justify-content: center;
 .divfooter{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .Copyright{
